@@ -16725,7 +16725,7 @@ img {
   color: black !important;
 
 }
-
+      
 
 .card-top-image {
   width: 100%;
@@ -16742,4 +16742,12 @@ img {
   text-align: center;
   overflow: hidden;
   margin: 10px;
+}
+
+.slick-clone {
+  padding-right: 10px;
+}
+
+.slick-arrow {
+  display: block  !important;
 }
