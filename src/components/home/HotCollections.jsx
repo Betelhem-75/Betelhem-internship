@@ -64,7 +64,7 @@ const HotCollections = () => {
             { loading
                ? new Array(10).fill(0).map((_, index) => (
                    <div style={{ padding: "10px", textAlign: "center" }} key={index}>
-                     <Skeleton height={60} style={{ marginBottom: 10 }} />
+                     <Skeleton height={250} style={{ marginBottom: 10 }} />
                      <Skeleton circle height={60} width={60} style={{ margin: "auto", marginBottom: 10 }} />
                      <i className="fa fa-check"></i>
                      <Skeleton width={100} height={20} style={{ margin: "auto", marginBottom: 5 }} />
